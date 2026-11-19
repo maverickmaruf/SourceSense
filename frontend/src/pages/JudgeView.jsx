@@ -185,10 +185,10 @@ export default function JudgeView() {
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-extrabold text-[15px] text-slate-900 tracking-tight">
-                  IIT BOMBAY TECHFEST — EVALUATION SUITE
+                  SYSTEM SIMULATION & EVALUATION SUITE
                 </span>
                 <span className="text-[9.5px] font-bold px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200/80 uppercase">
-                  JUDGE SANDBOX
+                  SIMULATION SANDBOX
                 </span>
               </div>
               <p className="text-xs text-slate-500 m-0">
@@ -406,7 +406,7 @@ export default function JudgeView() {
                   <div className="flex items-center justify-between text-xs font-bold text-slate-800">
                     <span className="flex items-center gap-1.5">
                       <Settings2 size={13} className="text-blue-700" />
-                      Judge Override & Fault Injection
+                      Manual Override & Fault Injection
                     </span>
                     <span className="font-mono text-blue-700 font-bold">{overrideLevel}% Flow</span>
                   </div>

@@ -35,7 +35,7 @@ export default function AppNavbar({
     { path: '/', label: 'Command Matrix', icon: Activity },
     { path: '/nodes', label: 'Nodes & Topology', icon: Layers },
     { path: '/events', label: 'Mitigation Ledger', icon: FileText },
-    { path: '/judge', label: 'Judge Suite', icon: Sliders, badge: 'FINAL' },
+    { path: '/judge', label: 'Simulation Suite', icon: Sliders },
   ];
 
   return (
@@ -50,9 +50,6 @@ export default function AppNavbar({
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-[15px] tracking-tight text-slate-900 flex items-center gap-1.5">
                 SourceSense <span className="text-blue-700 font-mono text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-blue-50 border border-blue-200/80">v3.2</span>
-              </span>
-              <span className="text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200/80">
-                IIT Bombay Techfest
               </span>
             </div>
             <p className="text-[10.5px] text-slate-500 tracking-normal font-medium m-0 flex items-center gap-1.5">

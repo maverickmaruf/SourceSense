@@ -12,8 +12,6 @@
 
 > **Sense → Understand → Act** — A full-stack, AI-powered platform that ingests real IoT environmental data, detects pollution sources, and autonomously triggers suppression hardware before dust levels reach dangerous thresholds.
 
-**Developed for IIT Bombay Techfest — Bangladesh Regional Rounds**
-
 </div>
 
 ---
@@ -56,7 +54,7 @@ SourceSense is a fully integrated, enterprise-grade air quality monitoring syste
 | 🧊 **3D Digital Twin (WebGL)** | Live Three.js 3D simulation of hardware with synchronized particle emitters during active remediation |
 | 🧠 **AI Source Classification** | Random Forest model identifies pollution source (`construction_dust`, `vehicle_combustion`, `waste_burning`, etc.) |
 | 💧 **Humidity-Corrected AQI** | Applies Laulainen/Chakrabarti hygroscopic growth correction before computing CPCB-standard AQI |
-| 🎛️ **Judge View & Fault Injection** | Manual override panel with a live data injection slider to demonstrate any system state on demand |
+| 🎛️ **Simulation Suite & Fault Injection** | Manual override panel with a live data injection slider to demonstrate any system state on demand |
 | 📊 **CSV Data Export** | One-click historical telemetry and event log export for compliance reporting |
 | 🔔 **Automated Alerts** | SMS, WhatsApp, and Email alert dispatch via Twilio & SMTP when thresholds are crossed |
 
@@ -91,7 +89,7 @@ SourceSense is a fully integrated, enterprise-grade air quality monitoring syste
                                │
 ┌──────────────────────────────▼──────────────────────────────────────┐
 │  React + Vite Frontend                                              │
-│  Dashboard | Node Management | Event Log | Judge View (3D Twin)     │
+│  Dashboard | Node Management | Event Log | Simulation Suite (3D Twin)│
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -291,8 +289,8 @@ SourceSense/
 │       │   ├── Dashboard.jsx        # Main command center view
 │       │   ├── NodeManagement.jsx   # Node config & calibration
 │       │   ├── EventLog.jsx         # Suppression event timeline
-│       │   ├── JudgeView.jsx        # Competition view
-│       │   └── ContestDashboard.jsx # Enterprise 3D Judge Dashboard
+│       │   ├── JudgeView.jsx        # Simulation & Diagnostics Suite
+│       │   └── ExternalSystems.jsx  # External Systems & Integration Hub
 │       ├── hooks/
 │       │   └── useWebSocket.js      # Live data WebSocket hook
 │       └── utils/
@@ -352,8 +350,8 @@ ALERT_EMAIL_TO=recipient@example.com
 
 <div align="center">
 
-**Built with ❤️ for IIT Bombay Techfest — Bangladesh Regional Rounds**
+**SourceSense — Sense → Understand → Act**
 
-*SourceSense — Sense → Understand → Act*
+*Autonomous Environmental Monitoring & Remediation Platform*
 
 </div>

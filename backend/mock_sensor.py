@@ -52,7 +52,7 @@ def get_or_create_node(node_info):
 
 def main():
     print("==============================================")
-    print(" Starting Championship Demo Scenario")
+    print(" Starting Automated Simulation Scenario")
     print("==============================================")
     
     node_ids = []

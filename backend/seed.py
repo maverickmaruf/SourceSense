@@ -54,7 +54,7 @@ def main():
             name="Mumbai_Pilot_Node_01",
             location_lat=19.0760,
             location_lon=72.8777,
-            description="IIT Mumbai pilot node — construction site, Andheri East",
+            description="Pilot node — construction site, Andheri East",
             site_manager_name="Site Manager",
             site_manager_email="manager@example.com",
             site_manager_phone="+919999999999",

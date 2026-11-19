@@ -666,7 +666,7 @@ export default function Dashboard() {
       {/* ── Clean Frosted Footer ── */}
       <footer className="w-full border-t border-slate-200/80 bg-white/70 backdrop-blur-xl py-3 px-4 text-center text-xs text-slate-500 font-mono mt-8 shadow-sm">
         <div className="max-w-[1780px] mx-auto flex items-center justify-between flex-wrap gap-2">
-          <span>SourceSense OS • IIT Bombay Techfest Finalist Architecture</span>
+          <span>SourceSense OS • Autonomous Environmental Remediation Platform</span>
           <span>Edge Micro-Inference • TinyML Random Forest • Closed-Loop SCADA</span>
           <span className="text-emerald-700 flex items-center gap-1.5 font-semibold">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> All Node Gateways Synchronized
